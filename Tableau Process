@@ -1,2 +1,7 @@
 # Here is what I did:
-asjdfklsdjmafdsj;a
+
+Finding data:
+  Needless to say, data preparation is a crucial step in any data science project. Substantial work had been done to get the right data for this project. I checked official US government websites like the NC Office of State Budget and Management and my main dataset was pulled from the USDA Economic Research Service's website.
+  I then had to interprete the variables and filter the data. I only included eco-equality related variables of interest such as number of convenience stores, number of fast food restaurant from the USDA data set. I also used NC population census data to create a base map of race demographis in North Carolina. One challenge is to create a Tableau dashboard with multiple plots from different data sources. Since the plots are geospatial at NC county level, I had to do some data manipulation in Google sheets, using functions such as look up and regular expression replacement. In particular, I needed to combine data sets based on FIPS (Federal Information Processing System) codes for counties in order to display those plots in the same dashboard. 
+
+In Tableau, I used parameters and calculated fields to allow the user to choose from a drop-own list to toggle between plots. 
